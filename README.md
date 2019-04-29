@@ -4,7 +4,11 @@ All praise to Jrotenberger for making this script!
 Additional info on what script collects:
 
 A) amcache.hve–we can use it to view the processes that were run on the machine historically (there are few tools available to read the hvefile, RegRipperor AmcacheParserby Eric Zimmerman and many more).
+
 B) All registry hives, allowing us to check for many places malware used to establish persistency, but also other information like USB devices, Firewall policies, routes etc.
+
 C) Routing tables, dnsquery cache, logon sessions, temporary internet files, browser history, cookies.
+
 D) All event logs that are enabled together with a list of all services and the ones autostarting, list of loaded drivers, scheduled tasks and clipboard content.
+
 E) Many more as you can configure scripts to your liking to collect as many artifacts as you require for your investigation, you can also extract memory dump for additional visibility if the attacker was particularygood at covering their tracks.
